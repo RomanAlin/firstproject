@@ -17,7 +17,7 @@ namespace FirstProject.Controllers
         // GET: Categories
         public ActionResult Index()
         {
-            return View(db.Actors.ToList());
+            return View(db.Categories.ToList());
         }
 
         // GET: Categories/Details/5
